@@ -5,3 +5,5 @@
 //     };   
 
 const getRemainder = (a, b) => a % b;
+
+//Question 2: 
