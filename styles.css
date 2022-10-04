@@ -18,7 +18,7 @@
     animation: results .6s linear infinite;
   }
 
-/* inspo here https://stephanwagner.me/only-css-loading-spinner */
+/* Took the animation style here https://stephanwagner.me/only-css-loading-spinner and tweaked it somewhat */
 
 .infobox{
     border: 2px solid black;
