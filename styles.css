@@ -1,0 +1,38 @@
+@keyframes results {
+    to {transform: rotate(360deg);}
+  }
+   
+  .results:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 25px solid #ccc;
+    border-top-color: #000;
+    animation: results .6s linear infinite;
+  }
+
+/* inspo here https://stephanwagner.me/only-css-loading-spinner */
+
+.infobox{
+    border: 2px solid black;
+    margin: 4px;
+    max-width: 350px;
+}
+
+.errormessage{
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.514);
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.highlightText{
+    font-weight: 700;
+}
