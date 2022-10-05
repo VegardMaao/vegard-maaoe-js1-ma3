@@ -24,6 +24,7 @@ async function makeHTMLfromURL() {
             if (i === 8){
                 break;
             }
+            resultContainer.classList.add("finishedResult");
             resultContainer.innerHTML += `
             <div class = "infobox">
             <p>Name: ${data[i].name}<p>
