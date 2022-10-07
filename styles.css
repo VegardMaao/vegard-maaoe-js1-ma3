@@ -33,7 +33,9 @@ p {
   animation: results 1s linear infinite;
 }
 
-/* Took the animation style here https://stephanwagner.me/only-css-loading-spinner and tweaked it somewhat */
+/* Took the animation style here:
+ https://stephanwagner.me/only-css-loading-spinner 
+ And tweaked it somewhat */
 
 .infobox {
   background-color: white;
